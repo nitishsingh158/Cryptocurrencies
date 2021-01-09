@@ -25,4 +25,18 @@ Data after using PCA to reduce to 3 features
 
 ![Coins](Resources/coins4.png)
 
-Elbow Curve to determine the number of clusters to be used with 
+Elbow Curve to determine the number of clusters to be used with KMeans
+
+![Coins](Resources/elbow_curve.png)
+
+HVPlot showing the different classes of Coins against the PC1, PC2 and PC3 axis
+
+![Coins](Resources/hvplot.png)
+
+Scatter Plot of the coins according to the clustered classes
+![Coins](Resources/scatter_plot.png)
+
+
+### Summary
+The KMeans clustering algorithm was able to segregate the coins based on the basic structural data for each coin. 
+Next step: To validate the effectiveness of the clustering, the actual performance of the coins in each class should be measured. 
